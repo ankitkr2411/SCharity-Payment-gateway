@@ -30,39 +30,39 @@ function pay() {
                     //As there is no backend used to store this amount on live database therefore I am commenting it out.>>>
                     
                     
-                    // let amtsum;
-                    // if(parseInt(localStorage.getItem('amount')) >= 0)
-                    // {
-                    //     let am = parseInt(localStorage.getItem('amount'));
-                    //     amtsum = am+parseInt(amt);
+                    let amtsum;
+                    if(parseInt(localStorage.getItem('amount')) >= 0)
+                    {
+                        let am = parseInt(localStorage.getItem('amount'));
+                        amtsum = am+parseInt(amt);
                         
-                    // }
+                    }
 
-                    // else{
-                    //     amtsum = 19524+parseInt(amt);
+                    else{
+                        amtsum = 19435+parseInt(amt);
      
-                    // }
+                    }
 
-                    // localStorage.setItem("amount",amtsum);
+                    localStorage.setItem("amount",amtsum);
 
 
-                    // let donasum;
-                    // if(parseInt(localStorage.getItem('donator')) >= 0)
-                    // {
-                    //     let dona = parseInt(localStorage.getItem('donator'));
-                    //     console.log(dona);
-                    //     donasum = dona+1;
+                    let donasum;
+                    if(parseInt(localStorage.getItem('donator')) >= 0)
+                    {
+                        let dona = parseInt(localStorage.getItem('donator'));
+                        console.log(dona);
+                        donasum = dona+1;
                         
-                    // }
+                    }
 
-                    // else{
-                    //     donasum = 544;
+                    else{
+                        donasum = 573+1;
 
                         
-                    // }
+                    }
 
-                    // console.log(donasum);
-                    // localStorage.setItem("donator",donasum);
+                    console.log(donasum);
+                    localStorage.setItem("donator",donasum);
 
                      window.location.href="thanks.html"
                     
