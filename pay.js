@@ -26,8 +26,7 @@ function pay() {
                 success:function(result){
 
 
-                    //<<<This Code is for Updating the Fund amount and Donator.>>>
-                    //As there is no backend used to store this amount on live database therefore I am commenting it out.>>>
+                    //<<<This Code is for Updating the Fund amount and Donator.Only in Local Storage.>>>
                     
                     
                     let amtsum;
